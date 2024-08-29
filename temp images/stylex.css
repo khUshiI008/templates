@@ -1,0 +1,472 @@
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.nav-icons .nav-link {
+    margin-right: 0;
+    padding: 0 10px;
+}
+
+.plan-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.plan-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan-section p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.plan-section .btn {
+    background-color: #627EEA;
+    color: white;
+    padding: 10px 30px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.plan-section .btn:hover {
+    background-color: #5267c2;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    order: -1; 
+  }
+  
+.image {
+    position: center;
+    top: -50%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: contain; 
+}
+.rev-link {
+    color: rgb(77, 75, 75);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 0.8rem; 
+    margin-bottom: 60px;
+  }
+  .customer-reviews {
+    text-align: start;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    margin-bottom: 60px;
+  }
+  .rating {
+    color: rgb(86, 74, 211);
+    font-size: 1.5rem; 
+  }
+  .reviewer-name {
+    font-weight: bold;
+  }
+  .testimonial {
+    font-style: italic;
+  }
+  .cta-link {
+    color: rgb(77, 75, 75);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 0.8rem; 
+    margin-bottom: 60px;
+  }
+  .division1 {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.availability {
+    font-size: 14px;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.subh {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.description1 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 100;
+}
+
+.button1 .chat {
+    background-color: #627EEA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    margin-right: 10px;
+}
+
+.button1 .faq {
+    color: #4b67e3;
+    text-decoration: none;
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+
+.button1 .faq:hover {
+    text-decoration: underline;
+}
+.sub {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+  .division2{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background: url('infrasructure.png') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container1 {
+    background: none; 
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin-bottom: 30px;
+}
+
+.check-coverage {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0a0a0a;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.description2 {
+font-family: 'Arial', sans-serif;
+font-size: 1.3rem;
+color: #555;
+font-weight: 100;
+margin-bottom: 20px;
+}
+.zip-code-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5; 
+    border-radius: 5px; 
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.zip-code-container input {
+    flex-grow: 1;
+    border: none;
+    background-color: #f5f5f5; 
+    font-size: 16px;
+    outline: none;
+    color: #2d2b2b; 
+}
+
+.zip-code-container button {
+    background-color: #f5f5f5; 
+    border: none;
+    font-size: 16px;
+    color: #c0c0c0; 
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease; 
+}
+
+.zip-code-container button:hover {
+    color: #000; 
+}
+
+.coverage-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #007bff; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.coverage-link:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    margin-right: 5px;
+}
+.division4, .divisions2 {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.division4 h3, .divisions2 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description4, .descriptions2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button4 .log, .buttons2 .buy {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button4 .log:hover, .buttons2 .buy:hover {
+    background-color: #5a6268;
+}
+
+.buy-plan-section {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sample-plan-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sample-plan-button:hover {
+    background-color: #5a6268;
+}
+
+.division5 {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.line-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buttons3 .plans {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons3 .plans:hover {
+    background-color: #5a6268;
+}
+
+.offer1 {
+    color: white;
+    text-align: start;
+    padding-block: 30px;
+}
+
+.detail {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(245, 240, 240);
+    font-weight: 30;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.students {
+    background-color: rgb(141, 167, 208);
+}
+
+.iot {
+    background-color: rgb(121, 121, 182);
+}
+
+.privacy {
+    background-color: rgb(121, 81, 121);
+}
+
+.offer img {
+    max-width: 100px;
+    height: auto;
+}
+
+.offer button {
+    background-color: rgb(156, 150, 150);
+    color: white;
+    padding: 10px 30px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.offer button:hover {
+    background-color: #3a52d1;
+}
+
+.division8 {
+    text-align: start;
+    background-color: #eaeaee;
+  }
+  .description8 {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.3rem;
+      color: #828080;
+      font-weight: 100;
+      margin-bottom: 20px;
+  }
+  .headbody {
+      margin-top: 30px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+  }
+  .try {
+      margin-top: 20px;
+      color: #606168;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+  }
+  .try:hover {
+      text-decoration: underline;
+      color: rgb(75, 72, 72);
+  }
+  .button1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  
+  .chat2 {
+      background-color: #627EEA;
+          color: white;
+          padding: 10px 30px;
+          font-size: 0.875rem;
+          font-weight: 600;
+          border-radius: 50px;
+          border: none;
+          transition: background-color 0.3s;
+  }
+  
+  .chat2:hover {
+      background-color: #3a52d1;
+  }
+  
+  .get2 {
+      margin-left: 20px;
+      color: #4b67e3;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 40px;
+  }
+  
+  .get2:hover {
+      text-decoration: underline;
+  }
+
+  .simplans img {
+      margin-top: 40px;
+      max-width: 300px;
+      border-radius: 8px;
+      position: relative;
+      margin-bottom: 40px;
+  }
+  .footer {
+    background-color: #cfdbe8;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #4a4b4e;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #292a2d;
+}
+.footer-icons a {
+    margin: 0 10px;
+    color: #4a4b4e;
+}
+.footer-icons a:hover {
+    color: #292a2d;
+}
